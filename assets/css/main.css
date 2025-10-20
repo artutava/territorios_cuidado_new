@@ -460,7 +460,7 @@ img {
   --ztc-text-text-3: #181713;
   --ztc-text-text-4: #FBD459;
   --ztc-text-text-5: #72706C;
-  --ztc-text-text-6: #01715D;
+  --ztc-text-text-6: #326bd7;
   --ztc-text-text-7: #FFA41C;
   --ztc-text-text-8: #170822;
   --ztc-text-text-9: #514E53;
@@ -468,12 +468,12 @@ img {
   --ztc-text-text-11: #0E082B;
   --ztc-text-text-12: #0085FF;
   --ztc-text-text-13: #46475F;
-  --ztc-text-text-14: #FF5F27;
+  --ztc-text-text-14: #326bd7;
   --ztc-text-text-15: #00263A;
   --ztc-text-text-16: #504F4E;
   --ztc-text-text-17: #F5F3F4;
   --ztc-text-text-18: #3F3F3F;
-  --ztc-text-text-19: #FF5528;
+  --ztc-text-text-19: #326bd7;
   --ztc-text-text-20: #122F2A;
   --ztc-text-text-21: #636363;
   --ztc-text-text-22: #F1F6F7;
@@ -486,9 +486,9 @@ img {
   --ztc-text-text-29: #D9EBC2;
   --ztc-text-text-30: #51544D;
   --ztc-bg-bg-1: #fff;
-  --ztc-bg-bg-2: #01715D;
+  --ztc-bg-bg-2: #326bd7;
   --ztc-bg-bg-3: #FBD459;
-  --ztc-bg-bg-4: #F6F4EE;
+  --ztc-bg-bg-4: #e3eefc;
   --ztc-bg-bg-5: #FBF7FF;
   --ztc-bg-bg-6: #E7E6EA;
   --ztc-bg-bg-7: #E6F3FF;
@@ -641,7 +641,7 @@ Location:
 /*============= FOOTER CSS AREA ===============*/
 /*============= COMMON CSS AREA ===============*/
 .vl-section-title-1 .subtitle {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   color: var(--ztc-text-text-3);
   font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-specing-height18);
@@ -1348,7 +1348,7 @@ input[type=radio] {
   -webkit-appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid #01715D;
+  border: 2px solid #326bd7;
   border-radius: 50%;
   outline: none;
   cursor: pointer;
@@ -1377,7 +1377,7 @@ input[type=radio]:checked {
 }
 
 input[type=radio]:checked::before {
-  background-color: #01715D;
+  background-color: #326bd7;
 }
 
 input[type=radio]:focus {
@@ -1765,7 +1765,7 @@ a, button {
 }
 
 .vl-brand5 {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   padding-top: 74px;
   padding-bottom: 74px;
 }
@@ -2656,7 +2656,7 @@ a.header-btn1.testimonial-btn4.testibtn4:hover {
   border-radius: 6px;
   margin-top: 6px;
   margin-bottom: 16px;
-  background: #F6F4EE;
+  background: #e3eefc;
 }
 .skill-progress .skill-box .skill-bar .skill-per {
   position: relative;
@@ -3129,7 +3129,7 @@ span.proggressbar-parcebtage {
 }
 
 .event-tabs .subheading {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   color: var(--ztc-text-text-2);
   padding: 8px;
   font-size: var(--ztc-font-size-font-s18);
@@ -3318,7 +3318,7 @@ span.proggressbar-parcebtage {
   top: 120px;
 }
 .vl-sidebar-area .vl-widget-area .vl-search-widget {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   border-radius: 8px;
   padding: 24px 20px;
 }
@@ -3375,7 +3375,7 @@ span.proggressbar-parcebtage {
   transition: 0.3s;
 }
 .vl-sidebar-area .vl-widget-area .vl-search-widget .vl-single-service span {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   height: 32px;
   width: 32px;
   border-radius: 50px;
@@ -3405,7 +3405,7 @@ span.proggressbar-parcebtage {
   transition: 0.3s;
 }
 .vl-sidebar-area .vl-phone-widget {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   border-radius: 8px;
   padding: 24px 20px;
 }
@@ -3439,7 +3439,7 @@ span.proggressbar-parcebtage {
   margin-right: 4px;
 }
 .vl-sidebar-area .vl-social-widget {
-  background: var(--ztc-bg-bg-4);
+  background: #e3eefc;
   padding: 24px 20px;
   border-radius: 8px;
 }
@@ -5227,7 +5227,7 @@ span.proggressbar-parcebtage {
 }
 
 .vl-blog-metabox1 {
-  background: #F6F4EE;
+  background: #e3eefc;
   border-radius: 8px;
   margin-left: 26px;
   margin-right: 26px;
@@ -6926,7 +6926,7 @@ span.proggressbar-parcebtage {
   animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: var(--ztc-text-text-1);
+  background: #326bd7;
   transition: all 0.4s;
 }
 
@@ -7585,11 +7585,11 @@ span.proggressbar-parcebtage {
   animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: var(--ztc-text-text-3);
+  background: #326bd7;
   transition: all 0.4s;
 }
 .header-area.homepage1.sticky.header-area2 {
-  background: var(--ztc-text-text-10);
+  background: #326bd7;
   top: 0;
 }
 
@@ -8769,7 +8769,7 @@ span.proggressbar-parcebtage {
   font-weight: 700;
   padding: 12px 24px;
   color: var(--ztc-text-text-3);
-  background: #F6F4EE;
+  background: #e3eefc;
 }
 @media (max-width: 767px) {
   .vl-tab-item .nav-link {
@@ -11077,7 +11077,7 @@ span.proggressbar-parcebtage {
 }
 
 .vl-testimonial4.vl-testimonial-inner .smarrow.abarow.arrow-lft.slick-arrow {
-  background: #F6F4EE !important;
+  background: #e3eefc !important;
 }
 
 .vl-testimonial4 {
@@ -11309,13 +11309,13 @@ span.proggressbar-parcebtage {
   background: green;
 }
 .vl-testimonial4 span.smarrow.smarrow2.abarow.arrow-lft.slick-arrow {
-  background: #F6F4EE !important;
+  background: #e3eefc !important;
 }
 .vl-testimonial4 span.smarrow.smarrow2.abarow.arrow-lft.slick-arrow:hover {
   background: #FBD459 !important;
 }
 .vl-testimonial4 span.smarrow.smarrow2.abarow.arrow-right.slick-arrow {
-  background: #F6F4EE !important;
+  background: #e3eefc !important;
 }
 .vl-testimonial4 span.smarrow.smarrow2.abarow.arrow-right.slick-arrow:hover {
   background: #FBD459 !important;
@@ -11450,7 +11450,7 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
 }
 
 .vl-testimonial4.vl-testimonial-inner .smarrow.slick-arrow {
-  background: #F6F4EE !important;
+  background: #e3eefc !important;
 }
 
 .vl-testimonial-content-wrap-6 .vl-section-title-6 .vl-title {
@@ -13872,13 +13872,13 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   }
 }
 .vl-about-vission-bg .vl-vission-tab2 .nav-pills .nav-link.active, .vl-about-vission-bg .vl-vission-tab2 .nav-pills .show > .nav-link {
-  color: #01715D;
+  color: #326bd7;
   background-color: inherit;
   font-size: var(--ztc-font-size-font-s20);
   line-height: var(--ztc-specing-height20);
   font-family: var(--ztc-family-font2);
   font-weight: var(--ztc-weight-bold);
-  border-top: 2px solid #01715D;
+  border-top: 2px solid #326bd7;
   border-radius: inherit;
   padding-top: 20px;
   margin-top: -22px;
@@ -15932,7 +15932,7 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   margin: 0 5px;
 }
 .theme-pagination ul li a {
-  background: #F6F4EE;
+  background: #e3eefc;
   height: 50px;
   width: 50px;
   display: block;
