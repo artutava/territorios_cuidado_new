@@ -262,6 +262,20 @@
                 }
             }
         }
+        & .event-meta-home{
+            & .para{
+                display: inline-block;
+                color: var(--ztc-text-text-2);
+                padding: 5px 5px;
+                background: var(--ztc-text-text-1);
+                border-radius: 8px;
+                transition: .3s;
+                margin-bottom: 10px;
+                @media #{$lg,$md,$xs}{
+                    margin-top: 10px;
+                }
+            }
+        }
         & .title{
             color: var(--ztc-text-text-3);
             font-size: var(--ztc-font-size-font-s24);
