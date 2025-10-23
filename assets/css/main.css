@@ -4697,6 +4697,9 @@ span.proggressbar-parcebtage {
 
 /*============= BLOG CSS AREA ===============*/
 .vl-blog-lar-thumb-bg {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16393,6 +16396,27 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   font-weight: var(--ztc-weight-semibold);
   padding-top: 16px;
   padding-bottom: 24px;
+}
+
+.heading-small {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #FFFfff;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: var(--ztc-family-font2);
+  font-weight: var(--ztc-weight-bold);
+  padding-bottom: 10px;
+            @media #{$md}{
+                font-size: var(--ztc-font-size-font-s70);
+                line-height: var(--ztc-specing-height80);
+                padding-bottom: 10px;
+            }
+            @media #{$xs}{
+                font-size: var(--ztc-font-size-font-s50);
+                line-height: var(--ztc-specing-height60);
+                padding-bottom: 10px;
+            }
 }
 
 /*# sourceMappingURL=main.css.map */

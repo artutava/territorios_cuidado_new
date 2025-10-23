@@ -279,13 +279,13 @@
         & .title{
             color: var(--ztc-text-text-3);
             font-size: var(--ztc-font-size-font-s24);
-            line-height: var(--ztc-specing-height24);
+            line-height: 10px !important;
             font-family: var(--ztc-family-font2);
             font-weight: var(--ztc-weight-bold);
             display: inline-block;
             @media #{$xs}{
                 font-size: var(--ztc-font-size-font-s20);
-                line-height: var(--ztc-specing-height30);
+                line-height: 20px !important;
             }
         }
         & .para{
